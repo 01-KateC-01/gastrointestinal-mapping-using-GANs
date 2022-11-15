@@ -23,7 +23,7 @@ Recently, significant advances have been made in the field of AI image processin
 2- Tensorflow 2.0
 3- Fundamental programming knowledge 
 
-#Project's Structure (Objectives):
+# Project's Structure (Objectives):
 1.	Implement and test an Image Classifier using convolutional neural networks on an example dataset, i.e. Fashion MNIST dataset
 2.	Implement and test an Image Classifier using convolutional neural networks on the labelled KID dataset to classify the different diseases present in it
 3.	Implement and test a Variational Auto Encoder (VAE) using an example dataset, i.e. MNIST dataset. (Note: VAE is one of the neural networks that constitute the GAN to be implemented)

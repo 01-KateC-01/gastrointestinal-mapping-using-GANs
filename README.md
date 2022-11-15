@@ -20,7 +20,9 @@ Recently, significant advances have been made in the field of AI image processin
 
 # Prerequisites:
 1- Python
+
 2- Tensorflow 2.0
+
 3- Fundamental programming knowledge 
 
 # Project's Structure (Objectives):

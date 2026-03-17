@@ -34,4 +34,8 @@ Recently, significant advances have been made in the field of AI image processin
 6.	Additional: Combine classification with disease mapping to create colour-coded maps that show different diseases
 7.	Additional: Run the final trained model on a different, unlabelled data set on the Pix2Pix GAN to compare performance with the KID data set and discuss results
 
+# Final Result
+The final model implemented was a U-Net architecture achieving 80%+ segmentation accuracy on the KID dataset. The full Pix2Pix GAN pipeline was the intended goal of the project; the U-Net represents the generator component of that architecture, with the discriminator component as future work.
+
+
 Details of each Objective can be found in the respective folder

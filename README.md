@@ -16,8 +16,14 @@ Recently, significant advances have been made in the field of AI image processin
 - Platform: Google Colab (cloud-based GPU training)
 - Validation: Stratified K-fold cross-validation, confusion matrices, TPR/TNR metrics
 
-# Final Result:
-The final model implemented was a U-Net architecture achieving 80%+ segmentation accuracy on the KID dataset. The full Pix2Pix GAN pipeline was the intended goal of the project; the U-Net represents the generator component of that architecture, with the discriminator component as future work.
+## Results
+- Benchmarked 4 pre-trained CNN classifiers (VGG16, ResNet50, EfficientNet B4, 
+  Inception V3) on the KID dataset across 8 gastrointestinal disease classes, 
+  achieving up to 70% validation accuracy on an inherently imbalanced medical dataset
+- Final segmentation model: U-Net architecture achieving 80%+ segmentation accuracy 
+  on multi-pathology gastrointestinal images — the first proof-of-concept for 
+  multi-pathology segmentation on this dataset
+- Awarded EEE Project Student of the Year 2023 (92%)
 
 # Project's Structure (Objectives):
 1.	Implement and test an Image Classifier using convolutional neural networks on an example dataset, i.e. Fashion MNIST dataset

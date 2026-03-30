@@ -9,10 +9,12 @@ Capsule endoscopy is a relatively new, low-cost procedure that can be used to di
 Recently, significant advances have been made in the field of AI image processing due to increased computational power and availability of large datasets. This project applies increasingly complex neural network architectures to automate disease detection and mapping from capsule endoscopy images.
 
 ![image](https://user-images.githubusercontent.com/87672746/202011697-6c81b35d-6617-49f6-9403-04d9d4612f1a.png)
-# Prerequisites:
-1- Python
-2- Tensorflow 2.0
-3- Fundamental programming knowledge
+# Technologies & Frameworks
+- Python (TensorFlow 2.0, NumPy, pandas, scikit-image, matplotlib)
+- Architectures: U-Net, CNNs (VGG16, ResNet50, EfficientNet B4, Inception V3), Autoencoders
+- Dataset: KID Dataset 2 (2,371 capsule endoscopy images, 8 classes)
+- Platform: Google Colab (cloud-based GPU training)
+- Validation: Stratified K-fold cross-validation, confusion matrices, TPR/TNR metrics
 
 # Final Result:
 The final model implemented was a U-Net architecture achieving 80%+ segmentation accuracy on the KID dataset. The full Pix2Pix GAN pipeline was the intended goal of the project; the U-Net represents the generator component of that architecture, with the discriminator component as future work.
